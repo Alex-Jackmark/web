@@ -55,7 +55,7 @@ add_action( 'woocommerce_before_single_product', 'woocommerce_single_product_sum
 function woocommerce_single_product_summary_button() {
 	$shop_page_url = get_permalink( woocommerce_get_page_id( 'shop' ) );
 	$html = '<div id="shop-back"> 
-		       <a class="back_button" href="' . $shop_page_url . '">Back to All Products</a>
+		       <a class="back-button" href="' . $shop_page_url . '">Back to All Products</a>
 		  </div>';
 	echo $html;
 }
