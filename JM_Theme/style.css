@@ -38,6 +38,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	font-family: "Dosis", sans-serif;
 }
 
+html, body, .row  {
+	height: 100%;
+}
+
 body {
 	font-size: 16px;
 }
@@ -211,6 +215,10 @@ body {
  * //////////////////////////////////////[HOMEPAGE]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
 
+#home-content-wrapper, #home-content, #shade {
+	height: 100%;
+}
+
 #home-content img {
 	width: 100%;
 }
@@ -218,7 +226,6 @@ body {
 #home-content {
 	background: url("https://jackmark-tests.com/wp-content/uploads/2017/07/banner-img.jpeg") no-repeat center top;
 	background-size: cover;
-	height: 100vh;
 }
 
 /* late inclusion... homepage background filter... */
@@ -232,7 +239,6 @@ body {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	height: 100vh;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
