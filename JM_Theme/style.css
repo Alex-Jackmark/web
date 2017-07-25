@@ -700,11 +700,11 @@ textarea {
 		display: -ms-flexbox;
 		display: -webkit-flex;
 		display: flex; /* flex */
-		-webkit-box-orient: horizontal;
+		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
-		-ms-flex-direction: row;
-		-webkit-flex-direction: row;
-		flex-direction: row;
+		-ms-flex-direction: column;
+		-webkit-flex-direction: column;
+		flex-direction: column;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
@@ -849,11 +849,11 @@ textarea {
 		display: -ms-flexbox;
 		display: flex;
 		display: -webkit-flex;
-		-webkit-box-orient: horizontal;
+		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
-		-webkit-flex-direction: row;
-		-ms-flex-direction: row;
-		flex-direction: row;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
 		-webkit-flex-wrap: wrap;			
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
