@@ -216,7 +216,7 @@ body {
  * //////////////////////////////////////[HOMEPAGE]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
 
-#home-content-wrapper, #home-content, #shade {
+.home, #home-content-wrapper, #home-content, #shade {
 	height: 100%;
 }
 
