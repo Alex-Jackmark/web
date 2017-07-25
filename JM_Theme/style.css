@@ -706,9 +706,6 @@ textarea {
 		-ms-flex-direction: column;
 		-webkit-flex-direction: column;
 		flex-direction: column;
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-		-webkit-flex-wrap: wrap;
 	}
 	
 	#contact-main-content {
@@ -811,9 +808,6 @@ textarea {
 		-ms-flex-direction: column !important; /* Overrides Woocommerce CSS */
 		-webkit-flex-direction: column !important; /* Overrides Woocommerce CSS */
 		flex-direction: column !important; /* Overrides Woocommerce CSS */
-		-ms-flex-wrap: wrap !important; /* Overrides Woocommerce CSS */
-		flex-wrap: wrap !important; /* Overrides Woocommerce CSS */ /* Overrides Woocommerce CSS */
-		-webkit-flex-wrap: wrap !important;	 /* Overrides Woocommerce CSS */
 	}
 	
 	.product {
@@ -855,9 +849,6 @@ textarea {
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		-webkit-flex-wrap: wrap;			
-		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
 		height: 100%;
 		-webkit-box-pack: center;
 		-webkit-justify-content: center;
