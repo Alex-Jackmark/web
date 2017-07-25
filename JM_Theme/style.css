@@ -220,7 +220,7 @@ body {
  * //////////////////////////////////////[HOMEPAGE]\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 */
 
-.home, #home-content-wrapper, #home-content, #shade {
+.home, #home-content-wrapper, #home-content-wrapper .row, #home-content, #shade {
 	height: 100%;
 }
 
