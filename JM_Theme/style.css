@@ -805,11 +805,11 @@ textarea {
 		display: -ms-flexbox !important; /* Overrides Woocommerce CSS */
 		display: flex !important; /* Overrides Woocommerce CSS */
 		display: -webkit-flex !important; /* Overrides Woocommerce CSS */
-		-webkit-box-orient: horizontal !important; /* Overrides Woocommerce CSS */
+		-webkit-box-orient: vertical !important; /* Overrides Woocommerce CSS */
 		-webkit-box-direction: normal !important; /* Overrides Woocommerce CSS */
-		-ms-flex-direction: row !important; /* Overrides Woocommerce CSS */
-		-webkit-flex-direction: row !important; /* Overrides Woocommerce CSS */
-		flex-direction: row !important; /* Overrides Woocommerce CSS */
+		-ms-flex-direction: column !important; /* Overrides Woocommerce CSS */
+		-webkit-flex-direction: column !important; /* Overrides Woocommerce CSS */
+		flex-direction: column !important; /* Overrides Woocommerce CSS */
 		-ms-flex-wrap: wrap !important; /* Overrides Woocommerce CSS */
 		flex-wrap: wrap !important; /* Overrides Woocommerce CSS */ /* Overrides Woocommerce CSS */
 		-webkit-flex-wrap: wrap !important;	 /* Overrides Woocommerce CSS */
