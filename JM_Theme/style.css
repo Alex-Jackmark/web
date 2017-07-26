@@ -674,7 +674,7 @@ textarea {
 		text-align: center;
 	}
 	
-	.woocommerce-order-received .shop_table th {
+	.woocommerce-checkout .shop_table th {
 		width: 50%;
 	}
 }
