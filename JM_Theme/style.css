@@ -38,11 +38,12 @@ Use it to make something cool, have fun, and share what you've learned with othe
 	font-family: "Dosis", sans-serif;
 }
 
-html, body, .row, .content {
+html, body, .content .row, .content {
+	height: auto;
 	min-height: 100%;
 }
 
-html {
+html, body {
 	height: 100%;
 }
 
@@ -50,11 +51,26 @@ body {
 	font-size: 16px;
 }
 
-.content {
-	margin-bottom: -30px;
-	min-height: 100vh;
+.page-template-contact .content .row {
+	padding: 0;
+}
+
+.page-template-showcase .content .row:first-of-type {
+	padding-top: 75px;
+}
+
+.page-template-showcase .content .row:last-of-type {
+	padding-bottom: 55px;
+}
+
+.content .row {
 	padding-bottom: 55px;
 	padding-top: 75px;
+}
+
+.content {
+	margin-bottom: -30px;
+	min-height: 100%;
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -222,6 +238,7 @@ body {
 
 .home, #home-content-wrapper, #home-content-wrapper .row, #home-content, #shade {
 	height: 100%;
+	min-height: 100%;
 }
 
 #home-content img {
@@ -229,7 +246,7 @@ body {
 }
 
 #home-content {
-	background: url("https://jackmark-tests.com/wp-content/uploads/2017/07/banner-img.jpeg") no-repeat center top;
+	background: url("/wp-content/uploads/2017/07/banner-img.jpeg") no-repeat center top;
 	background-size: cover;
 }
 
@@ -631,16 +648,20 @@ textarea {
 	}
 
 	tr.cart_item td:last-of-type,
-	.shop_table th:first-of-type,
 	.shop_table th:last-of-type {
 		border-right: 0;
 	}
 
 	.shop_table th,
+	.shop_table td,
 	.product_name,
 	.product_price,
 	.product_quantity {
 		text-align: center;
+	}
+	
+	.shop_table th {
+		width: 50%;
 	}
 }
 
