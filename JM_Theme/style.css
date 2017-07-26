@@ -551,14 +551,24 @@ textarea {
 	display: -ms-flexbox !important; /* Overrides Woocommerce CSS */
 	display: flex !important; /* Overrides Woocommerce CSS */
 	display: -webkit-flex !important; /* Overrides Woocommerce CSS */
-	-webkit-box-orient: horizontal !important; /* Overrides Woocommerce CSS */
-	-webkit-box-direction: normal !important; /* Overrides Woocommerce CSS */
-	-ms-flex-direction: row !important; /* Overrides Woocommerce CSS */
-	-webkit-flex-direction: row !important; /* Overrides Woocommerce CSS */
-	flex-direction: row !important; /* Overrides Woocommerce CSS */
-	-ms-flex-wrap: wrap !important; /* Overrides Woocommerce CSS */
-	flex-wrap: wrap !important; /* Overrides Woocommerce CSS */
-	-webkit-flex-wrap: wrap !important;  /* Overrides Woocommerce CSS */
+	-webkit-box-orient: vertical; 
+	-webkit-box-direction: normal; 
+	-ms-flex-direction: column; 
+	-webkit-flex-direction: column; 
+	flex-direction: column; 
+	-ms-flex-wrap: wrap; 
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;	
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-moz-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-moz-box-align: center;
+	-ms-flex-align: center;
+    align-items: center;
 }
 
 .woocommerce-thankyou-order-received {
