@@ -344,7 +344,7 @@ body {
 	background-color: #fff;
 	border: 1px solid #aaa;
 	border-radius: 4px;
-	padding: 10px 0;
+	padding: 10px 5px;
 }	
 
 #contact-side-content {
@@ -395,6 +395,10 @@ body {
 	color: #fff;
 	padding: 15px;
 	width: 100%;
+}
+
+#contact-info {
+	margin-bottom: 40px;
 }
 
 /* ------------------------------------------------------------------------------------ */
