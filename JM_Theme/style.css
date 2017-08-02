@@ -296,15 +296,18 @@ body {
 	display: -ms-flexbox;
 	display: flex;
 	display: -webkit-flex;
+	height: 32%;
 	height: 32vh;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
 	margin-bottom: 1vh;
+	background: transparent;
 }
 
 .vid-container video {
+	height: 100px;
 	height: 100%;
 }
 
@@ -888,7 +891,8 @@ textarea {
 		-webkit-flex-direction: column;
 		-ms-flex-direction: column;
 		flex-direction: column;
-		height: 100%;
+		top: 0;
+		bottom: 0;
 		-webkit-box-pack: center;
 		-webkit-justify-content: center;
 		-ms-flex-pack: center;
@@ -933,6 +937,47 @@ textarea {
 	
 	#navbar-toggle-wrapper {
 		display: none !important; /* Overrides Bootstrap CSS */
+	}
+}
+
+/* Fix iOS/old webkit vh unit bug */
+/* ipad */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.vid-container,
+	.vid-text {
+		height: 245px !important;
+	}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.vid-container,
+	.vid-text {
+		height: 327px !important;
+	}
+}
+/* iphone5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2) {
+	.vid-container,
+	.vid-text {
+		height: 102px !important;
+	}
+}
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2) {
+	.vid-container,
+	.vid-text {
+		height: 181px !important;
+	}
+}
+/* iPhone 4 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+	.vid-container,
+	.vid-text {
+		height: 102px !important;
+	}
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+	.vid-container,
+	.vid-text {
+		height: 153px !important;
 	}
 }
 

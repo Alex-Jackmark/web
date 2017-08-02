@@ -11,9 +11,11 @@
 
 	<div class="row">
 		<div id="vidContainer1" class="vid-container col-md-6 col-xs-12">
-			<video id="halftileTest" class="embed-responsive" autoplay loop preload="auto" height="auto" width="auto" onClick="playPause(this);">
-				<source src="https://jackmark-tests.com/wp-content/uploads/2017/07/halftileTest.mp4"></source>
-				<source src="https://jackmark-tests.com/wp-content/uploads/2017/07/halfTileTest2.ogv"></source>
+			<video id="halftileTest" class="embed-responsive" autoplay loop preload="auto" poster="/wp-content/uploads/2017/08/half-tile-placeholder.png" height="auto" width="auto" onClick="playPause(this);">
+				<source src="/wp-content/uploads/2017/08/Half-Tile-Handbrake.mp4"></source>
+				<source src="/wp-content/uploads/2017/08/Half-Tile-Handbrake.webm"></source>
+				<source src="/wp-content/uploads/2017/07/halftileTest.ogv"></source>
+				Sorry! This video has issues loading in this browser. Please try an updated version or another broswer to view this video.
 			</video>
 		</div>
 		<div id="vidText1" class="vid-text col-md-6 col-xs-12">
@@ -25,9 +27,11 @@
 	</div>
 	<div class="row">
 		<div id="vidContainer2" class="vid-container col-md-6 col-xs-12 col-md-push-6">
-			<video autoplay loop preload="auto" class="embed-responsive" onClick="playPause(this);">
-				<source src="https://jackmark-tests.com/wp-content/uploads/2017/07/ECU-flash-station.mp4"></source>
-				<source src="https://jackmark-tests.com/wp-content/uploads/2017/07/ECU-Flash-Station.ogv"></source>
+			<video autoplay loop preload="auto" class="embed-responsive" poster="/wp-content/uploads/2017/08/ECU-flash-station-placeholder.png" onClick="playPause(this);">
+				<source src="/wp-content/uploads/2017/08/Ecu-flash-station-handbrake.mp4"></source>
+				<source src="/wp-content/uploads/2017/08/Ecu-flash-station-handbrake.webm"></source>
+				<source src="/wp-content/uploads/2017/07/ECU-Flash-Station.ogv"></source>
+				Sorry! This video has issues loading in this browser. Please try an updated version or another broswer to view this video.
 			</video>
 		</div>
 	
@@ -41,9 +45,11 @@
 	</div>
 	<div class="row">
 		<div id="vidContainer3" class="vid-container col-md-6 col-xs-12">
-			<video autoplay loop preload="auto" class="embed-responsive" onClick="playPause(this);">
-				<source src="https://jackmark-tests.com/wp-content/uploads/2017/07/Fuel-Rail.mp4"></source>
-				<source src="https://jackmark-tests.com/wp-content/uploads/2017/07/Fuel-Rail.ogv"></source>
+			<video autoplay loop preload="auto" class="embed-responsive" poster="/wp-content/uploads/2017/08/fuel-rail-placeholder.png" onClick="playPause(this);">
+				<source src="/wp-content/uploads/2017/08/Fuel-rail-handbrake.mp4"></source>
+				<source src="/wp-content/uploads/2017/08/Fuel-rail-handbrake.webm"></source>
+				<source src="/wp-content/uploads/2017/07/Fuel-Rail.ogv"></source>
+				Sorry! This video has issues loading in this browser. Please try an updated version or another broswer to view this video.
 			</video>
 		</div>
 		<div id="vidText3" class="vid-text col-md-6 col-xs-12">
