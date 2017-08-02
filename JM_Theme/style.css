@@ -296,18 +296,15 @@ body {
 	display: -ms-flexbox;
 	display: flex;
 	display: -webkit-flex;
-	height: 32%;
 	height: 32vh;
 	-webkit-box-pack: center;
 	-webkit-justify-content: center;
 	-ms-flex-pack: center;
 	justify-content: center;
 	margin-bottom: 1vh;
-	background: transparent;
 }
 
 .vid-container video {
-	height: 100px;
 	height: 100%;
 }
 
