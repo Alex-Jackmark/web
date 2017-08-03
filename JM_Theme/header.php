@@ -37,7 +37,7 @@
 								</div>
 				
 								<?php echo '<h1 class="col-xs-4 col-md-12"><a class="navbar-brand" href="' . esc_url( home_url() ) . '">';
-								echo '<img class="img-responsive" src="' . wp_get_attachment_url(9)  . '" alt="Jackmark Engineering Ltd."/>'; 
+								echo '<img class="img-responsive" src="' . wp_get_attachment_url(9)  . '" alt="Jackmark Engineering Ltd."/>';
 								echo '</a></h1>'; ?>
 				
 								<?php if ( has_nav_menu( 'language-switcher' ) ) : ?>
