@@ -18,7 +18,7 @@
 				<div id="intro">
 					<p>Jackmark Engineering (incorporating Jackmark International) is a pioneer in the design field of electrical automotive test interface design and manufacture.</p>
 					<p>Founded in 1979 to meet the needs of the UK automotive industry Jackmark has grown into a global supplier to the global automotive industry.</p>
-					<a class="btn btn-danger" href="http://192.168.0.87/jackmark_demo/products">VIEW PRODUCTS</a> 
+					<a class="btn btn-danger" href="/products">VIEW PRODUCTS</a> 
 				</div>
 			</div>
 		</div>
