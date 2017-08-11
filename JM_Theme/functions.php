@@ -7,6 +7,8 @@ function jackmark_enqueue() {
 	wp_enqueue_style( 'style', get_template_directory_uri() . '/style.css' );
 	wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '3.3.4', true );
 	wp_enqueue_style( 'google-fonts', 'https://fonts.googleapis.com/css?family=Dosis|Yanone+Kaffeesatz' );
+	wp_enqueue_script( 'respondJS', get_template_directory_uri() . '/js/respond.min.js' );
+	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr-custom.js' );
 }
 
 // Register Primary Navigation Menu to Wordpress.

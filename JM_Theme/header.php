@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" <?php language_attributes(); ?>> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" <?php language_attributes(); ?>> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" <?php language_attributes(); ?>> <!--<![endif]-->
+
     <head>
         <meta charset="<?php bloginfo( 'charset' ); ?>" />
         
@@ -22,6 +26,12 @@
 	
 	<body <?php body_class(); ?>>
 	
+		<!--[if lt IE 9]>
+		<div class="alert alert-danger" id="ie-old-notif">
+			<strong>UNSUPPORTED</strong>: This website is not supported on IE8 and below. If you wish to order a product or make a general enquiry, please use a modern browser.
+		</div>
+		<![endif]-->
+	
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container-fluid">
 				<div class="row">
@@ -37,7 +47,7 @@
 								</div>
 				
 								<?php echo '<h1 class="col-xs-4 col-md-12"><a class="navbar-brand" href="' . esc_url( home_url() ) . '">';
-								echo '<img class="img-responsive" src="' . wp_get_attachment_url(9)  . '" alt="Jackmark Engineering Ltd."/>';
+									echo '<img class="img-responsive" src="' . wp_get_attachment_url(9)  . '" alt="Jackmark Engineering Ltd."/>'; 
 								echo '</a></h1>'; ?>
 				
 								<?php if ( has_nav_menu( 'language-switcher' ) ) : ?>
