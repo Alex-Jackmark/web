@@ -425,6 +425,7 @@ body {
 
 .no-flexbox.no-flexboxlegacy #contact-side-content { /* Modernizr */
 	padding: 220px 45px;
+	padding: 11vh 2vw;
 }
 
 #contact-form-container {
